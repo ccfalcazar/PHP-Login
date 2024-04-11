@@ -1,0 +1,17 @@
+#Logo{
+    width: 10rem;
+}
+
+#name{
+    font-style: bold;
+    font-size: large;
+}
+
+#date{
+    font-style: bold;
+    font-size: medium;
+}
+#time, #status{
+    font-style: italic;
+    font-size: small;
+}
