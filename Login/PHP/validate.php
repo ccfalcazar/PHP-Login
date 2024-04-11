@@ -15,7 +15,7 @@ Try{
     if($result->rowCount() === 1)
     {
         $_SESSION['isLoggedIn'] = true;
-        $_SESSION['user'] = $UserName;
+        $_SESSION['username'] = $UserName;
         echo('<h6 class="lead text-center text-success">Connected Successfully!</h6>');
     }
     else

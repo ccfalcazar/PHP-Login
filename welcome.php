@@ -35,7 +35,7 @@ session_start();
                     <div class="card-body">
                         <div class="row">
                             <div class="text-start col-sm">
-                                <p id="name" class="m-0 p-0"><?php echo $_SESSION['user']; ?></p>
+                                <p id="name" class="m-0 p-0"><?php echo $_SESSION['username']; ?></p>
                                 <p id="status" class="lead m-0 p-0">Status: Logged Out</p>
                             </div>
                             <div class="justify-content-end col-sm d-flex">
