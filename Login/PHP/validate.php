@@ -4,8 +4,8 @@ $UserName = $_POST['UserName'];
 $Password = $_POST['Password'];
 $servername = "localhost:3310";
 $dbUserName = "root";
-$dbPassword = "Freedom!014";
-$dbname = "agatesql";
+$dbPassword = "password";
+$dbname = "databaseName";
 
 Try{
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $dbUserName, $dbPassword);
